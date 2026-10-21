@@ -1,6 +1,6 @@
 num = "-1"
 while int(num) < 0:
-    num = input()
+    num = input().strip()
 
 invert = ""
 length = len(num)
